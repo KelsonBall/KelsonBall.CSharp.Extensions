@@ -1,9 +1,4 @@
 ﻿using Kelson.CSharp.Extensions;
-////////////////////////////////////////////////////////////
-// Copyright © 2016 Schweitzer Engineering Laboratories, Inc.
-// Kelson Confidential
-/////////////////////////////////////////////////////////////
-
 using System;
 using NUnit.Framework;
 using System.Collections.Generic;

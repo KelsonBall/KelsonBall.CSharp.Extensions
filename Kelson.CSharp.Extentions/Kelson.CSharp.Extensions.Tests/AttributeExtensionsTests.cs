@@ -1,9 +1,4 @@
-﻿////////////////////////////////////////////////////////////
-// Copyright © 2016 Schweitzer Engineering Laboratories, Inc.
-// Kelson Confidential
-/////////////////////////////////////////////////////////////
-
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using System;
 using System.Reflection;
 using Kelson.CSharp.Extensions.Tests;

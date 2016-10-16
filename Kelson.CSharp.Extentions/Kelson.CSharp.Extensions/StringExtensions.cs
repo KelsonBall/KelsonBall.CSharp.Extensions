@@ -1,9 +1,4 @@
-﻿////////////////////////////////////////////////////////////
-// Copyright © 2016 Schweitzer Engineering Laboratories, Inc.
-// Kelson Confidential
-/////////////////////////////////////////////////////////////
-
-namespace Kelson.CSharp.Extensions
+﻿namespace Kelson.CSharp.Extensions
 {
     public static class StringExtensions
     {

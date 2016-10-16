@@ -1,9 +1,4 @@
-﻿////////////////////////////////////////////////////////////
-// Copyright © 2016 Schweitzer Engineering Laboratories, Inc.
-// Kelson Confidential
-/////////////////////////////////////////////////////////////
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using CompResultPair = System.Tuple<Kelson.CSharp.Extensions.ComparableExtensions.Comparator<int>, bool>;
 using NUnit.Framework;
 

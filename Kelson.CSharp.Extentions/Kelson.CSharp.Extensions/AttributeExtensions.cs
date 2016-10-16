@@ -1,9 +1,4 @@
-﻿////////////////////////////////////////////////////////////
-// Copyright © 2016 Schweitzer Engineering Laboratories, Inc.
-// Kelson Confidential
-/////////////////////////////////////////////////////////////
-
-using System;
+﻿using System;
 using System.Reflection;
 
 namespace Kelson.CSharp.Extensions
