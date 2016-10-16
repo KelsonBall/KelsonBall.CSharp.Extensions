@@ -45,7 +45,7 @@ namespace Kelson.CSharp.MathExtensions
         /// Returns the largest element from a list of arguments.
         /// </summary>
         /// <param name="comparer">Method to derive a comparable value from an item.</param>
-        public static T Max<T>(Func<T, IComparable> comparer, params T[] args)
+        public static T Max<T>(this Func<T, IComparable> comparer, params T[] args)
         {
             if (args == null || args.Length == 0)
             {
@@ -70,7 +70,7 @@ namespace Kelson.CSharp.MathExtensions
         /// Returns the smallest element from a list of arguments.
         /// </summary>
         /// <param name="comparer">Method to derive a comparable value from an item.</param>
-        public static T Min<T>(Func<T, IComparable> comparer, params T[] args)
+        public static T Min<T>(this Func<T, IComparable> comparer, params T[] args)
         {
             if (args == null || args.Length == 0)
             {
@@ -108,7 +108,7 @@ namespace Kelson.CSharp.MathExtensions
         /// Computes the mean of a list of items.
         /// </summary>
         /// <param name="selector">Method to map item to an arithmetic value.</param>
-        public static double Mean<T>(Func<T, double> selector, params T[] args)
+        public static double Mean<T>(this Func<T, double> selector, params T[] args)
         {
             if (args == null || args.Length == 0)
             {
